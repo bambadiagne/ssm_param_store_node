@@ -1,0 +1,29 @@
+{
+  "name": "ssm_param_store_node",
+  "version": "1.0.0",
+  "description": "A simple POC of ssm param store",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node dist/server.js",
+    "dev:live": "ts-node-dev src/server.ts",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.1.0",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "@aws-sdk/client-ssm": "^3.624.0",
+    "@aws-sdk/types": "^3.609.0",
+    "aws-sdk": "^2.1668.0",
+    "express": "^4.19.2",
+    "mongoose": "^8.5.2",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0"
+  }
+}
